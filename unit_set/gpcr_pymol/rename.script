@@ -1,0 +1,17 @@
+mv d3r_inactive_angle_d3.etq.1_1.csv d3r_inactive_angle_d3fl.etq.1.na.charmm36_1.csv
+mv d3r_inactive_angle_d3.etq.1_2.csv d3r_inactive_angle_d3fl.etq.1.na.charmm36_2.csv
+mv d3r_inactive_carbon_d3.etq.1_1.csv d3r_inactive_carbon_d3fl.etq.1.na.charmm36_1.csv
+mv d3r_inactive_carbon_d3.etq.1_2.csv d3r_inactive_carbon_d3fl.etq.1.na.charmm36_2.csv
+mv d3r_inactive_chi1_d3.etq.1_1.csv d3r_inactive_chi1_d3fl.etq.1.na.charmm36_1.csv
+mv d3r_inactive_chi1_d3.etq.1_2.csv d3r_inactive_chi1_d3fl.etq.1.na.charmm36_2.csv
+mv d3r_inactive_distance_d3.etq.1_1.csv d3r_inactive_distance_d3fl.etq.1.na.charmm36_1.csv
+mv d3r_inactive_distance_d3.etq.1_2.csv d3r_inactive_distance_d3fl.etq.1.na.charmm36_2.csv
+mv d3r_partial_angle_d3.dop.1_1.csv d3r_partial_angle_d3fl.dop.1.na.charmm36_1.csv
+mv d3r_partial_angle_d3.dop.1_2.csv d3r_partial_angle_d3fl.dop.1.na.charmm36_2.csv
+mv d3r_partial_carbon_d3.dop.1_1.csv d3r_partial_carbon_d3fl.dop.1.na.charmm36_1.csv
+mv d3r_partial_carbon_d3.dop.1_2.csv d3r_partial_carbon_d3fl.dop.1.na.charmm36_2.csv
+mv d3r_partial_chi1_d3.dop.1_1.csv d3r_partial_chi1_d3fl.dop.1.na.charmm36_1.csv
+mv d3r_partial_chi1_d3.dop.1_2.csv d3r_partial_chi1_d3fl.dop.1.na.charmm36_2.csv
+mv d3r_partial_distance_d3.dop.1_1.csv d3r_partial_distance_d3fl.dop.1.na.charmm36_1.csv
+mv d3r_partial_distance_d3.dop.1_2.csv d3r_partial_distance_d3fl.dop.1.na.charmm36_2.csv
+

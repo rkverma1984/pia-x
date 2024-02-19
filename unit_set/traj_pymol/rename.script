@@ -1,0 +1,11 @@
+mv d3r_partial_inactive_angle.csv d3r_partial_inactive_angle.csv
+mv d3r_partial_distance_dopa.csv d3r_partial_distance.csv
+mv d3r_partial_chi1_dopa.csv d3r_partial_chi1.csv
+mv d3r_partial_carbon_dopa.csv d3r_partial_carbon.csv
+mv d3r_partial_angle_dopa.csv d3r_partial_angle.csv
+mv d3r_inactive_distance_etq.csv d3r_inactive_distance.csv
+mv d3r_inactive_chi1_etq.csv d3r_inactive_chi1.csv
+mv d3r_inactive_carbon_etq.csv d3r_inactive_carbon.csv
+mv d3r_inactive_angle_etq.csv d3r_inactive_angle.csv
+mv d3r_partial_inactive_chi1.csv d3r_partial_inactive_chi1.csv
+mv d3r_partial_inactive_carbon.csv d3r_partial_inactive_carbon.csv

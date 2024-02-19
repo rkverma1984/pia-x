@@ -1,0 +1,58 @@
+# prepare dcd
+# preparing dcd with identical pdbs to ensure the the expetation: traj_frequency & pdb_distance should have the same output
+
+
+# prepare input files
+mkdir infiles
+
+cp /home/khlee/desmond/restart/drd3/pd2/drd3_pd2.f2/drd3_pd2.f2_e2280-2400.cms.wrap.protein.na.pdb infiles/d3_gi_pd.pdb
+cp /home/khlee/desmond/restart/drd3ao/pd2/drd3ao_pd2.f2/drd3ao_pd2.f2_e2280-2400.cms.wrap.protein.na.pdb infiles/d3_go_pd.pdb
+
+# parsing some segment id
+perl ~/dopamine/bin/change_segid.pl -pdb infiles/d3_gi_pd.pdb > infiles/d3_gi_pd_mod.pdb
+perl ~/dopamine/bin/change_segid.pl -pdb infiles/d3_go_pd.pdb > infiles/d3_go_pd_mod.pdb
+
+
+# contril dcd with 
+catdcd -o infiles/test_d3_gi_pd.dcd -otype dcd \
+ -stype pdb \
+ -s infiles/d3_gi_pd.pdb \
+ -pdb infiles/d3_gi_pd.pdb -pdb infiles/d3_gi_pd.pdb
+
+cp infiles/test_d3_gi_pd.dcd infiles/test_d3_gi_pd_1.dcd
+cp infiles/test_d3_gi_pd.dcd infiles/test_d3_gi_pd_2.dcd
+cp infiles/test_d3_gi_pd.dcd infiles/test_d3_gi_pd_3.dcd
+
+
+catdcd -o infiles/test_d3_go_pd.dcd -otype dcd \
+ -stype pdb \
+ -s infiles/d3_go_pd.pdb \
+ -pdb infiles/d3_go_pd.pdb -pdb infiles/d3_go_pd.pdb
+
+
+cp infiles/test_d3_go_pd.dcd infiles/test_d3_go_pd_1.dcd 
+cp infiles/test_d3_go_pd.dcd infiles/test_d3_go_pd_2.dcd 
+cp infiles/test_d3_go_pd.dcd infiles/test_d3_go_pd_3.dcd 
+
+
+
+#  major files of testcase
+
+# testing Bing's code
+D3_anal.ipynb
+D3_gi_pd.ini   # input file for gi
+D3_go_pd.ini   # input file for go
+DRD3_table.py  # input file definition of DRD3 BW index
+
+observations:
+1. calculation is slow
+2. frequecny may have bug. The testcase is controled, and the element in matrix should be 1 instead of 0.7.
+
+# testing khlee's code
+ppaa_v0.ipynb   khlee's quick and dirtry code using some built-in function in MDA.
+--> still on-going..
+
+
+
+
+

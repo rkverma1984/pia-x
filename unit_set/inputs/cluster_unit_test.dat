@@ -1,0 +1,16 @@
+mclstr mol frame
+-10 d3fl.etq.na.charmm36 1296
+-9 d3fl.etq.1.na.charmm36 535
+-8 d3fl.etq.na.charmm36 16
+-7 d3fl.dop.2.na.charmm36 620
+-6 d3fl.dop.2.na.charmm36 129
+-5 d3fl.dop.1.na.charmm36 969
+-4 d3fl.dop.1.na.charmm36 777
+-3 d3fl.dopa.na.charmm36  542
+-2 d3fl.dopa.na.charmm36  614
+-1 d3fl.dopa.na.charmm36  348
+
+1 d3fl.dop.1.na.charmm36 1
+2 d3fl.dop.1.na.charmm36 2
+1 d3fl.etq.1.na.charmm36 1
+2 d3fl.etq.1.na.charmm36 2

@@ -1,0 +1,90 @@
+Wed Feb 12 14:10:58 EST 2020
+
+launch_dir = /home/khlee/repositories/Git-repo/protocols/PIA-GPCR/modular_pia_gpcr/test/dat_simple
+RdBu
+
+Input file : parameters_unit_test.py
+Output file is : traj_unit_test.py 
+
+coord_dictionary done
+clusters_dictionary done
+frames_dictionary done
+average_dictionary done
+individual_matrix_dictionary done
+7 7
+10 10
+Progress : angle ###                 16% [|||] distance                     0% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle #######             33% [|||] distance                     0% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance                     0% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ###                 16% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance #######             33% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon                     0% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon ###                 16% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon #######             33% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1                     0% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 ###                 16% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 #######             33% [|||] Progress : angle ##########          50% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] 7 7
+10 10
+Progress : angle #############       66% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle #################   83% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ##########          50% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance #############       66% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance #################   83% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon ##########          50% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon #############       66% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon #################   83% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon ####################100% [|||] chi1 ##########          50% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon ####################100% [|||] chi1 #############       66% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon ####################100% [|||] chi1 #################   83% [|||] Progress : angle ####################100% [|||] distance ####################100% [|||] carbon ####################100% [|||] chi1 ####################100% [|||] 
+
+
+jjc8091 angle , frames used : 3
+jjc8091 distance , frames used : 3
+jjc8091 carbon , frames used : 3
+jjc8091 chi1 , frames used : 3
+jjc8088 angle , frames used : 3
+jjc8088 distance , frames used : 3
+jjc8088 carbon , frames used : 3
+jjc8088 chi1 , frames used : 3
+
+
+angle limit = 50.8843560711
+distance limit = -0.1825995557
+carbon limit = -0.05040328953
+chi1 limit = 12.126536052
+
+
+
+####### individual frame: jjc8088 #########
+angle    	-->	frame_id: 1	-->	no significant difference
+angle    	-->	frame_id: 2	-->	no significant difference
+angle    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8091 #########
+angle    	-->	frame_id: 1	-->	no significant difference
+angle    	-->	frame_id: 2	-->	no significant difference
+angle    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8088 #########
+distance    	-->	frame_id: 1	-->	no significant difference
+distance    	-->	frame_id: 2	-->	no significant difference
+distance    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8091 #########
+distance    	-->	frame_id: 1	-->	no significant difference
+distance    	-->	frame_id: 2	-->	no significant difference
+distance    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8088 #########
+carbon    	-->	frame_id: 1	-->	no significant difference
+carbon    	-->	frame_id: 2	-->	no significant difference
+carbon    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8091 #########
+carbon    	-->	frame_id: 1	-->	no significant difference
+carbon    	-->	frame_id: 2	-->	no significant difference
+carbon    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8088 #########
+chi1    	-->	frame_id: 1	-->	no significant difference
+chi1    	-->	frame_id: 2	-->	no significant difference
+chi1    	-->	frame_id: 3	-->	no significant difference
+
+####### individual frame: jjc8091 #########
+chi1    	-->	frame_id: 1	-->	no significant difference
+chi1    	-->	frame_id: 2	-->	no significant difference
+chi1    	-->	frame_id: 3	-->	no significant difference
+
+####### average matrix: jjc8088 #########
+angle    	-->	no significant difference
+distance    	-->	no significant difference
+carbon    	-->	no significant difference
+chi1    	-->	no significant difference
+
+####### average matrix: jjc8091 #########
+angle    	-->	no significant difference
+distance    	-->	no significant difference
+carbon    	-->	no significant difference
+chi1    	-->	no significant difference
+
+####### differential matrix: #########

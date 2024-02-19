@@ -1,0 +1,65 @@
+## major change in pairwise_interactions_calculation_tool.py
+## the purpose is to do the unit test more flexible
+
+            elif opt in ("-d", "--do"):
+            	os.system("mkdir -p pia_frames pia_average pia_plots")
+                parameters_file = 'parameters_unit_test.py'
+                traj_data_file = 'traj_unit_test.py'
+                log = 'pia_test.log'
+                path = os.path.join(launch_dir, 'inputs/')
+                do_ut = arg
+                so = 'yes'
+
+
+
+## PIA-GPCR setup
+export PYTHONPATH=~/PycharmProjects/Git-repo/protocols/PIA-GPCR/modular_pia_gpcr/:~/PycharmProjects/Git-repo/protocols/PIA-GPCR/modular_pia_gpcr/functions/
+alias pia_gpcr='python ~/PycharmProjects/Git-repo/protocols/PIA-GPCR/modular_pia_gpcr/pairwise_interactions_calculation_tool.py'
+
+
+
+##  loading module
+module load python/anaconda-stock-py2.7.12
+#module switch python/anaconda-stock-py2.7.12
+
+
+
+## folder & files
+make sure only inputs is in the folder
+
+under inputs:
+
+	inputs/parameters.tcl				DAT parameter for vmd
+	inputs/cluster_unit_test.dat		cluster information for pia
+	inputs/parameters_unit_test.py		DAT paremeter for pia
+	inputs/traj_unit_test.py			traj information for pia
+
+	inputs/traj/						trajectories 
+	inputs/traj/jjc8088.dcd
+	inputs/traj/jjc8088.pdb
+	inputs/traj/jjc8091.dcd
+	inputs/traj/jjc8091.pdb
+
+## required packages
+
+python 2.x
+vmd
+catdcd
+
+
+## softlink vmdscripts
+ln -sf ../vmdscripts
+
+
+## go through each script to do the unit test
+./step0_check.sh
+./step1_gen_vmd_matrix.sh
+./step2_do_pia_unit_test_dat.sh | tee run.log
+./step3_cleanup.sh
+
+
+## observation
+
+1) dat_simple is completed passed 
+2) dat ...the angle calculation from vmd is off. The code is not as good as pia.
+
